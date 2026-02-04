@@ -2,6 +2,10 @@ resource "azurerm_resource_group" "rg" {
   name     = "rgprabhat"
   location = "centralindia"
 }
+resource "azurerm_resource_group" "rg1" {
+  name     = "rgprabhat1"
+  location = "centralindia"
+}
 
 resource "azurerm_storage_account" "stg" {
   name                     = "stgprabhat"
